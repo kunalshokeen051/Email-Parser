@@ -1,32 +1,28 @@
 using Microsoft.AspNetCore.Mvc;
-using PM.SkySync.Models;
-using System.Diagnostics;
+using System.Data;
+using PM.Entities.Models;
+using Dapper;
+using System.Collections.Generic;
 
 namespace PM.SkySync.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        public readonly IDbConnection _db;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IDbConnection dbConnection)
         {
-            _logger = logger;
+            _db = dbConnection;
         }
 
+        //[CheckAuth]
         public IActionResult Index()
         {
-            return View();
-        }
+            _db.Open();
+            var Users = _db.Query<Login>("select * from Login");
+            _db.Close();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(Users);
         }
     }
 }

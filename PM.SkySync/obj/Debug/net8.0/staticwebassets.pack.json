@@ -181,6 +181,22 @@
       "PackagePath": "staticwebassets\\PM.SkySync.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\wwwroot\\assets\\Login.jpg",
+      "PackagePath": "staticwebassets\\assets\\Login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\wwwroot\\css\\Auth\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Auth\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\wwwroot\\css\\Auth\\Login.min.css",
+      "PackagePath": "staticwebassets\\css\\Auth\\Login.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\wwwroot\\css\\Auth\\Login.scss",
+      "PackagePath": "staticwebassets\\css\\Auth\\Login.scss"
+    },
+    {
       "Id": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

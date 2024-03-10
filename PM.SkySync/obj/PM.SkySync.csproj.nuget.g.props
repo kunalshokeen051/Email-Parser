@@ -367,7 +367,8 @@
     </Content>
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\Kunal Shokeen\.nuget\packages\jquery\3.7.1</PkgjQuery>
     <PkgFontAwesome Condition=" '$(PkgFontAwesome)' == '' ">C:\Users\Kunal Shokeen\.nuget\packages\fontawesome\4.7.0</PkgFontAwesome>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\Kunal Shokeen\.nuget\packages\jquery\3.7.1</PkgjQuery>
+    <PkgBuildWebCompiler Condition=" '$(PkgBuildWebCompiler)' == '' ">C:\Users\Kunal Shokeen\.nuget\packages\buildwebcompiler\1.12.405</PkgBuildWebCompiler>
   </PropertyGroup>
 </Project>

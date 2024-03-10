@@ -75,3 +75,13 @@ C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\ob
 C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\obj\Debug\net8.0\PM.SkySync.pdb
 C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\obj\Debug\net8.0\PM.SkySync.genruntimeconfig.cache
 C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\obj\Debug\net8.0\ref\PM.SkySync.dll
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\obj\Debug\net8.0\PM.SkySync.sourcelink.json
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Common.dll
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Entities.dll
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Manager.dll
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Repositories.dll
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Common.pdb
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Entities.pdb
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Manager.pdb
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Repositories.pdb

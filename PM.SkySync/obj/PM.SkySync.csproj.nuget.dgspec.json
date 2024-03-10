@@ -4,14 +4,14 @@
     "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\PM.SkySync.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\PM.SkySync.csproj": {
+    "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Common\\PM.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\PM.SkySync.csproj",
-        "projectName": "PM.SkySync",
-        "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\PM.SkySync.csproj",
+        "projectUniqueName": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Common\\PM.Common.csproj",
+        "projectName": "PM.Common",
+        "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Common\\PM.Common.csproj",
         "packagesPath": "C:\\Users\\Kunal Shokeen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\obj\\",
+        "outputPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kunal Shokeen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,367 @@
               "target": "Package",
               "version": "[4.7.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\PM.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\PM.Entities.csproj",
+        "projectName": "PM.Entities",
+        "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\PM.Entities.csproj",
+        "packagesPath": "C:\\Users\\Kunal Shokeen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kunal Shokeen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "FontAwesome": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Manager\\PM.Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Manager\\PM.Manager.csproj",
+        "projectName": "PM.Manager",
+        "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Manager\\PM.Manager.csproj",
+        "packagesPath": "C:\\Users\\Kunal Shokeen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Manager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kunal Shokeen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "FontAwesome": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Repositories\\PM.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Repositories\\PM.Repositories.csproj",
+        "projectName": "PM.Repositories",
+        "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Repositories\\PM.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Kunal Shokeen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kunal Shokeen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "FontAwesome": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\PM.SkySync.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\PM.SkySync.csproj",
+        "projectName": "PM.SkySync",
+        "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\PM.SkySync.csproj",
+        "packagesPath": "C:\\Users\\Kunal Shokeen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kunal Shokeen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Common\\PM.Common.csproj": {
+                "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Common\\PM.Common.csproj"
+              },
+              "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\PM.Entities.csproj": {
+                "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\PM.Entities.csproj"
+              },
+              "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Manager\\PM.Manager.csproj": {
+                "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Manager\\PM.Manager.csproj"
+              },
+              "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Repositories\\PM.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Repositories\\PM.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BuildWebCompiler": {
+              "target": "Package",
+              "version": "[1.12.405, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "FontAwesome": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "Google.Apis": {
               "target": "Package",
               "version": "[1.67.0, )"
@@ -64,6 +425,10 @@
             "MailKit": {
               "target": "Package",
               "version": "[4.4.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",

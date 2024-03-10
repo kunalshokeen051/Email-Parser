@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|c:\\users\\kunal shokeen\\desktop\\hemant sir projects\\project\\skysync\\pm.skysync\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|solutionrelative:pm.skysync\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|c:\\users\\kunal shokeen\\desktop\\hemant sir projects\\project\\skysync\\pm.skysync\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|solutionrelative:pm.skysync\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|c:\\users\\kunal shokeen\\desktop\\hemant sir projects\\project\\skysync\\pm.skysync\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|solutionrelative:pm.skysync\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|c:\\users\\kunal shokeen\\desktop\\hemant sir projects\\project\\skysync\\pm.skysync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|solutionrelative:pm.skysync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|c:\\users\\kunal shokeen\\desktop\\hemant sir projects\\project\\skysync\\pm.skysync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{057617C4-C88C-4CF1-B428-51FD2C43C3AB}|PM.SkySync\\PM.SkySync.csproj|solutionrelative:pm.skysync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "PM.SkySync\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "PM.SkySync\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-10T09:31:46.961Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\appsettings.json",
+              "RelativeDocumentMoniker": "PM.SkySync\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\appsettings.json",
+              "RelativeToolTip": "PM.SkySync\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-10T12:15:31.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\Program.cs",
+              "RelativeDocumentMoniker": "PM.SkySync\\Program.cs",
+              "ToolTip": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\Program.cs",
+              "RelativeToolTip": "PM.SkySync\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T12:13:54.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PM.SkySync\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PM.SkySync\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T12:13:11.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PM.SkySync\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.SkySync\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PM.SkySync\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T07:27:03.124Z",
+              "WhenOpened": "2024-03-10T11:31:10.091Z",
               "EditorCaption": ""
             }
           ]
