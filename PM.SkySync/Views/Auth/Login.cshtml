@@ -1,1 +1,111 @@
-﻿
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/Login.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height:100vh;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .container-middle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            
+        }
+
+        button {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container container-middle">
+        <div class="card">
+            <div class="card-header" style="font-size:2rem;font-weight:bold;color:dodgerblue">Login</div>
+            <div class="card-body">
+                <form id="loginForm" method="post">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                        <span class="error" id="usernameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                        <span class="error" id="passwordError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+                <hr>
+                <div class="text-center">
+                    <p>Or login with:</p>
+                    <a href="/auth/google-login" class="btn btn-danger">Google</a>
+                    <a href="/auth/microsoft-login" class="btn btn-primary">Microsoft</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#loginForm').submit(function (e) {
+                e.preventDefault();
+
+                var username = $('#username').val();
+                var password = $('#password').val();
+                var isValid = true;
+
+                $('.error').text('');
+
+                if (username.trim() === '') {
+                    $('#usernameError').text('Username is required.');
+                    isValid = false;
+                }
+
+                if (password.trim() === '') {
+                    $('#passwordError').text('Password is required.');
+                    isValid = false;
+                }
+
+                if (isValid) {
+                    $.ajax({
+                        url: '/auth/login',
+                        method: 'POST',
+                        data: { username: username, password: password },
+                        success: function (data) {
+                            console.log(data);
+                            if(data.status = 1){
+                                location.href.replace("/");
+                            }
+                        },
+                        error: function (xhr, textStatus, errorThrown) {
+                            console.error('Login failed:', textStatus, errorThrown);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

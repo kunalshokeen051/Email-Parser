@@ -818,6 +818,24 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "PM.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Dapper": "2.1.35",
+          "Dapper.Contrib": "2.0.78",
+          "FontAwesome": "4.7.0",
+          "MailKit": "4.4.0",
+          "Microsoft.Data.SqlClient": "5.2.0",
+          "SendGrid": "9.29.2"
+        },
+        "compile": {
+          "bin/placeholder/PM.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PM.Entities.dll": {}
+        }
       }
     }
   },
@@ -2398,6 +2416,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PM.Entities/1.0.0": {
+      "type": "project",
+      "path": "../PM.Entities/PM.Entities.csproj",
+      "msbuildProject": "../PM.Entities/PM.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2407,6 +2430,7 @@
       "FontAwesome >= 4.7.0",
       "MailKit >= 4.4.0",
       "Microsoft.Data.SqlClient >= 5.2.0",
+      "PM.Entities >= 1.0.0",
       "SendGrid >= 9.29.2"
     ]
   },
@@ -2436,7 +2460,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\PM.Entities.csproj": {
+              "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\PM.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

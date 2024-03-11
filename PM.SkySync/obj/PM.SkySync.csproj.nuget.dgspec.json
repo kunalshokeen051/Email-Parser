@@ -285,7 +285,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\PM.Entities.csproj": {
+                "projectPath": "C:\\Users\\Kunal Shokeen\\Desktop\\Hemant Sir Projects\\Project\\SkySync\\PM.Entities\\PM.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

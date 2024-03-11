@@ -647,6 +647,7 @@
           "FontAwesome": "4.7.0",
           "MailKit": "4.4.0",
           "Microsoft.Data.SqlClient": "5.2.0",
+          "PM.Entities": "1.0.0",
           "SendGrid": "9.29.2"
         },
         "runtime": {

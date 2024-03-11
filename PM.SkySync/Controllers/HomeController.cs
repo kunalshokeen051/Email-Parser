@@ -3,6 +3,7 @@ using System.Data;
 using PM.Entities.Models;
 using Dapper;
 using System.Collections.Generic;
+using PM.SkySync.Filter;
 
 namespace PM.SkySync.Controllers
 {
@@ -15,14 +16,11 @@ namespace PM.SkySync.Controllers
             _db = dbConnection;
         }
 
-        //[CheckAuth]
+        [CheckAuth]
         public IActionResult Index()
         {
-            _db.Open();
-            var Users = _db.Query<Login>("select * from Login");
-            _db.Close();
-
-            return View(Users);
+            
+            return View();
         }
     }
 }

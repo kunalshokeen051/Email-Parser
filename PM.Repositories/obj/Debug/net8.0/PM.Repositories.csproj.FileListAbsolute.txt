@@ -11,3 +11,6 @@ C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.Repositori
 C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.Repositories\obj\Debug\net8.0\refint\PM.Repositories.dll
 C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.Repositories\obj\Debug\net8.0\PM.Repositories.pdb
 C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.Repositories\obj\Debug\net8.0\ref\PM.Repositories.dll
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.Repositories\bin\Debug\net8.0\PM.Entities.dll
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.Repositories\bin\Debug\net8.0\PM.Entities.pdb
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.Repositories\obj\Debug\net8.0\PM.Repos.4ACE3F58.Up2Date
