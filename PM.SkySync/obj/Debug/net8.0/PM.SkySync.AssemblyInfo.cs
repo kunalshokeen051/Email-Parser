@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PM.SkySync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5b3cb689b749bdd9fa2c089cb8ea819f5132787")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f241f2601cf66ce94b3d18a194758ce6974ae3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PM.SkySync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PM.SkySync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

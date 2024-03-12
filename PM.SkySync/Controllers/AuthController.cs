@@ -1,9 +1,5 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using PM.Entities.Models;
-using System.Data.Common;
-using System.Security.Claims;
 
 namespace PM.SkySync.Controllers
 {
@@ -12,13 +8,14 @@ namespace PM.SkySync.Controllers
         [HttpGet]
         public IActionResult Login(string returnUrl = "/")
         {
+            ViewBag.link = returnUrl;
             return View();
         }
 
         [HttpPost]
         public IActionResult Login(Login model)
         {
-            return Json(new { status = 1});
+            return Json(new { status = 1 });
         }
     }
 }

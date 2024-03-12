@@ -1,8 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
-using PM.Entities.Models;
-using Dapper;
-using System.Collections.Generic;
 using PM.SkySync.Filter;
 
 namespace PM.SkySync.Controllers

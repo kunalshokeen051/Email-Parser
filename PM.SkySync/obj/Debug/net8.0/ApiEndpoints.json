@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "ContainingType": "PM.SkySync.Controllers.ParserController",
+    "Method": "Index",
+    "RelativePath": "api/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

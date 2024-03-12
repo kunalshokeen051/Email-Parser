@@ -9,20 +9,16 @@
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>ID</th>
                 <th>Username</th>
                 <th>Password</th>
-                <th>Email</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var user in Model)
             {
                 <tr>
-                    <td>@user.Id</td>
                     <td>@user.Username</td>
                     <td>@user.Password</td>
-                    <td>@user.Email</td>
                 </tr>
             }
         </tbody>
