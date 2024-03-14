@@ -1,1 +1,13 @@
-﻿
+﻿body h1 {
+  color: red; }
+
+body .container {
+  width: 500px;
+  height: 600px; }
+
+h1 {
+  color: red; }
+
+.container {
+  width: 400px;
+  height: 600px; }

@@ -85,3 +85,5 @@ C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bi
 C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Entities.pdb
 C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Manager.pdb
 C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\PM.Repositories.pdb
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\GenerativeAI.dll
+C:\Users\Kunal Shokeen\Desktop\Hemant Sir Projects\Project\SkySync\PM.SkySync\bin\Debug\net8.0\OpenAI_API.dll

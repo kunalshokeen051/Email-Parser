@@ -426,6 +426,10 @@
               "target": "Package",
               "version": "[1.67.0, )"
             },
+            "Google_GenerativeAI": {
+              "target": "Package",
+              "version": "[0.1.15, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[4.4.0, )"
@@ -441,6 +445,10 @@
             "Microsoft.jQuery.Unobtrusive.Validation": {
               "target": "Package",
               "version": "[4.0.0, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.11.0, )"
             },
             "SendGrid": {
               "target": "Package",

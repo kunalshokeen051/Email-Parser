@@ -1,7 +1,7 @@
 [
   {
-    "ContainingType": "PM.SkySync.Controllers.ParserController",
-    "Method": "Index",
+    "ContainingType": "YourApiController",
+    "Method": "ParseEmailContent",
     "RelativePath": "api/test",
     "HttpMethod": "GET",
     "IsController": true,
